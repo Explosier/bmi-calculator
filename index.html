@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMI Skaičiuotuvas</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main>
+        <h1>KMI Skaičiuotuvas</h1>
+        <input type="number" id="height" placeholder="Ūgis cm" min="0" max="300">
+        <input type="number" id="weight" placeholder="Svoris kg" min="0" max="500">
+        <button id="calculateButton">Skaičiuoti</button>
+        <div id="result">
+            <p id="bmiResult"></p>
+            <button id="resetButton">Reset</button>
+        </div>
+        <div id="error"></div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
